@@ -1,1 +1,1 @@
-# quakejs-docker
+# kamal quake
