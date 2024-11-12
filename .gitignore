@@ -1,9 +1,4 @@
-### remove redundant hidden folders ###
-__pycache__
-.ipynb_checkpoints
-
-### remove redundant files ###
-.pyc
+.kamal
 .DS_Store
-.*  # ignore all hidden files and folders
-!/.gitignore  # explicitly do not ignore .gitignore
+.*  
+!/.gitignore
