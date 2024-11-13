@@ -1,6 +1,0 @@
-jupyterlab
-pandas
-numpy
-timeout-decorator
-pydot
-dill

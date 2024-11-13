@@ -1,4 +1,0 @@
-2020-06-20 17:33:08 START: function "test" starting execution
-2020-06-20 17:33:08 SUCCESS: function "test" executed properly
-2020-06-20 17:33:08 START: function "test" starting execution
-2020-06-20 17:33:08 FAILURE: function "test" failed, EXECPTION: unsupported operand type(s) for +: 'int' and 'str'
