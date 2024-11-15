@@ -22,13 +22,13 @@ sed -i "s/${SERVER}:80/${SERVER}:${HTTP_PORT}/g" index.html
 
 # Start Apache and enable SSL
 sudo /etc/init.d/apache2 start
-sudo a2enmod ssl
-sudo /etc/init.d/apache2 restart
-sudo a2ensite default-ssl
-sudo /etc/init.d/apache2 reload
+# sudo a2enmod ssl
+# sudo /etc/init.d/apache2 restart
+# sudo a2ensite default-ssl
+# sudo /etc/init.d/apache2 reload
 
 # Set TLS reject flag for Node.js
-export NODE_TLS_REJECT_UNAUTHORIZED=0
+# export NODE_TLS_REJECT_UNAUTHORIZED=0
 
 cd /usr/src/quakejs
 
