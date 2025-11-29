@@ -1,0 +1,7 @@
+{
+  "listenPort": 27961,
+  "proxyAddr": "localhost",
+  "proxyPort": 27960,
+  "key": "/etc/ssl/kamal/certs/kamal-quake.xyz/privkey.pem",
+  "cert": "/etc/ssl/kamal/certs/kamal-quake.xyz/fullchain.pem"
+}

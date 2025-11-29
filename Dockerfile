@@ -18,6 +18,12 @@ RUN npm install
 COPY server.cfg /usr/src/quakejs/base/baseq3/server.cfg
 COPY server.cfg /usr/src/quakejs/base/cpma/server.cfg
 
+# copy wssproxy configuration
+COPY wssproxy.json /usr/src/quakejs/wssproxy.json
+
+# expose ports: 80 (web), 27960 (game internal), 27961 (wss proxy)
+EXPOSE 80 27960 27961
+
 # replace index / assets
 RUN rm /var/www/html/index.html 
 RUN cp /usr/src/quakejs/html/* /var/www/html/
